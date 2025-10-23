@@ -1,5 +1,8 @@
-## VIRTUAL-MACHINES-
+# VIRTUAL-MACHINES-
 # EX 6: MOVING FILES BETWEEN VIRTUAL MACHINES
+
+#### NAME: SATHYAA R
+#### REG NO: 212223100052
 
 ### Aim:
 To move the files between virtual machine.
@@ -12,7 +15,8 @@ To move the files between virtual machine.
 •	You can create a shared drive, either a virtual disk or a raw partition, and mount the drive in each of the virtual machines.
 
 ### Procedure:
-		How to Enable File sharing in VirtualBox. 
+
+How to Enable File sharing in VirtualBox. 
 Step 1. Install Guest Additions on the Guest machine. 
 Step 2. Configure File Sharing on VirtualBox. 
  
@@ -36,7 +40,7 @@ C.Right click at "VBoxWindowsAdditions" application and from the pop-up menu, ch
 
 4. When the setup is completed, choose Finish and restart the Virtuabox guest machine.
 
-Step 2. Setup File Sharing on VirtualBox Guest Machine.
+	Step 2. Setup File Sharing on VirtualBox Guest Machine.
 1. From VirtualBox menu click Devices and choose Shared Folders -> Shared Folder Settings.
 
 ![image](https://github.com/user-attachments/assets/c58d8e37-8a75-47ad-bdc8-800ff55b2ccf)
@@ -60,6 +64,6 @@ Step 2. Setup File Sharing on VirtualBox Guest Machine.
 
 5. You 're done! To access the shared folder from the Guest OS, open Windows Explorer and under the 'Network locations' you should see a new network drive that corresponds to the shared folder on the Host OS.
 
-Result:
+### Result:
 
 Thus the virtual machine files are moved to another VM
